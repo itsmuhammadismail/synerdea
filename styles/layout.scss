@@ -1,0 +1,15 @@
+.h1 {
+  font-weight: 700;
+  // font-size: 4rem;
+  // line-height: 3.938rem;
+  @apply text-[2.25rem] leading-[3rem] md:text-[4rem] md:leading-[3.938rem];
+}
+.h2 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 3rem;
+}
+.p {
+  color: #656464;
+  font-size: 1rem;
+}
