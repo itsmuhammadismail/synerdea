@@ -3,7 +3,7 @@ import Flex from "./Flex";
 
 const EnterpriseScale = () => {
   return (
-    <div className="bg-[#FBFBFB] min-h-screen">
+    <div className="bg-[#FBFBFB] min-h-screen" id="enterprise">
       <div className="max-w-[80rem] mx-auto min-h-screen px-8 py-16 lg:py-4 flex flex-col lg:flex-row justify-center gap-12 lg:justify-between items-center">
         <div className="order-2 lg:order-1">
           <img src="/images/startups.svg" alt="" />
@@ -20,7 +20,9 @@ const EnterpriseScale = () => {
             browser plugin. Integrate your brick and mortar store with synerdea
             POS and your warehouse with synerdea WMS.
           </p>
-          <BigButton />
+          <a href="#get-started">
+            <BigButton />
+          </a>
         </div>
       </div>
     </div>

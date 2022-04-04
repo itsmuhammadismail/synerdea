@@ -21,23 +21,23 @@ const Header = () => {
     <header className="border-b border-[rgba(33, 123, 244, 0.1)] absolute w-full">
       <div className="max-w-[80rem] mx-auto px-8 py-4 flex justify-between items-center">
         <div className="flex items-center gap-12">
-          <a href="">
+          <a href="#hero">
             <img src="/logo.svg" alt="" />
           </a>
           <ul className="hidden xl:flex gap-8">
-            <a href="">
+            <a href="#clients">
               <li>Clients</li>
             </a>
-            <a href="">
+            <a href="#services">
               <li>Services</li>
             </a>
-            <a href="">
+            <a href="#startups">
               <li>For Startups</li>
             </a>
-            <a href="">
+            <a href="#business">
               <li>For Business</li>
             </a>
-            <a href="">
+            <a href="#enterprise">
               <li>For Enterprise</li>
             </a>
           </ul>

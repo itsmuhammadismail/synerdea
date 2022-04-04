@@ -3,7 +3,7 @@ import Flex from "./Flex";
 
 const GrowingBusiness = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen" id="business">
       <div className="max-w-[80rem] mx-auto min-h-screen px-8 py-16 lg:py-4 flex flex-col lg:flex-row justify-center gap-12 lg:justify-between items-center">
         <div className="">
           <h2 className="h2">For Growing Businesses</h2>
@@ -16,7 +16,9 @@ const GrowingBusiness = () => {
             delivery services to deliver your orders on the same day and in
             real-time.
           </p>
-          <BigButton />
+          <a href="#get-started">
+            <BigButton />
+          </a>
         </div>
         <div className="">
           <img src="/images/business.svg" alt="" />

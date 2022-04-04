@@ -6,7 +6,7 @@ const Map = () => {
       <div className="max-w-[80rem] mx-auto p-8 lg:p-4">
         <div className="relative flex flex-col gap-8">
           <img src="/map.webp" className="w-full hidden lg:block" />
-          <div className="lg:absolute top-[40%] left-[10%] z-20 flex flex-col justify-start items-start outermap">
+          <div className="lg:absolute top-[38%] left-[10%] z-20 flex flex-col justify-start items-start outermap">
             <img src="/logo.svg" alt="" className="w-[10rem]" />
             <p>USA</p>
             <div className="innermap flex flex-col gap-4 mt-4">
@@ -22,7 +22,7 @@ const Map = () => {
               </div>
             </div>
           </div>
-          <div className="lg:absolute top-[40%] right-[10%] z-20 flex flex-col justify-start items-start outermap ">
+          <div className="lg:absolute top-[38%] right-[24%] z-20 flex flex-col justify-start items-start outermap ">
             <img src="/logo.svg" alt="" className="w-[10rem]" />
             <p>Pakistan</p>
             <div className="innermap flex flex-col gap-4 mt-4">

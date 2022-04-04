@@ -2,7 +2,7 @@ import Flex from "./Flex";
 
 const Ecom = () => {
   return (
-    <div className="bg-white min-h-screen">
+    <div className="bg-white min-h-screen" id="services">
       <div className="max-w-[80rem] mx-auto min-h-screen px-8 py-16 lg:py-4 flex flex-col lg:flex-row justify-center gap-12 lg:justify-between items-center">
         <div className="">
           <h2 className="h2">

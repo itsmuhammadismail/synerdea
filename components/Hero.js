@@ -3,18 +3,20 @@ import Flex from "./Flex";
 
 const Hero = () => {
   return (
-    <div className="bg-gradient min-h-screen">
+    <div className="bg-gradient min-h-screen" id="hero">
       <div className="max-w-[80rem] mx-auto min-h-screen px-8 py-4 flex flex-col lg:flex-row justify-center gap-12 lg:justify-between items-center">
         <div className="mt-[6rem] lg:mt-0">
           <h1 className="h1">
             You have Idea! <br />
-            We have Solutoins
+            We have Solutions
           </h1>
           <p className="text-[1.125rem] my-8 max-w-[31rem]">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry&apos;s
           </p>
-          <BigButton />
+          <a href="#get-started">
+            <BigButton />
+          </a>
         </div>
         <div className="">
           <img src="/images/hero.svg" alt="" />
