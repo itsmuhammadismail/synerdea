@@ -60,8 +60,7 @@ const Footer = () => {
 
       <div className="p-4 flex justify-center items-center bg-[#217BF4]">
         <p className="text-sm text-white text-center">
-          &copy; 2021 - {new Date().getFullYear()} | All Rights Reserved |
-          Designed & Developed by Touqeer Ahmed Khan
+          &copy; 2021 - {new Date().getFullYear()} | All Rights Reserved
         </p>
       </div>
     </>

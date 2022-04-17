@@ -8,13 +8,13 @@ const GrowingBusiness = () => {
         <div className="">
           <h2 className="h2">For Growing Businesses</h2>
           <p className="text-[1.125rem] my-8 max-w-[31rem]">
-            Run your growing E-Commerce Business with synerdea OMS. Deliver
-            anywhere and everywhere using Our built in integration with up to
-            eight different domestic delivery partners. Track your orders in
-            real time. Use synerdea Rider App to allocate and deliver shipments
-            using your own riders. It’s all there. Use integratedhyperlocal
-            delivery services to deliver your orders on the same day and in
-            real-time.
+            Run your growing E-Commerce Business with synerdea tango & one app.
+            Deliver anywhere and everywhere using Our built in integration with
+            up to eight different domestic delivery partners. Track your orders
+            in real time. Use synerdea Rider App to allocate and deliver
+            shipments using your own riders. It’s all there. Use
+            integratedhyperlocal delivery services to deliver your orders on the
+            same day and in real-time.
           </p>
           <a href="#get-started">
             <BigButton />

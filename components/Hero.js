@@ -11,8 +11,8 @@ const Hero = () => {
             We have Solutions
           </h1>
           <p className="text-[1.125rem] my-8 max-w-[31rem]">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s
+            Synerdea serves as an expert in data-driven research and provides
+            modernization & visibility to your business.
           </p>
           <a href="#get-started">
             <BigButton />

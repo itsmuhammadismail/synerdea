@@ -9,7 +9,7 @@ const Ecom = () => {
             We&apos;ve got everything your <br />
             E-Commerce Store needs
           </h2>
-          <p className="p my-8 max-w-[25rem]">
+          <p className="my-8 max-w-[25rem] text-[1.125rem] ">
             Recent surveys have indicated that small businesses recognise the
             need they have to connect with consumer.
           </p>
