@@ -1,4 +1,5 @@
 import { HomeIcon, PhoneIcon } from "@heroicons/react/solid";
+import { Fade } from "react-awesome-reveal";
 
 const Map = () => {
   return (

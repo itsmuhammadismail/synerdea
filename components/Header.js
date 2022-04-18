@@ -43,14 +43,6 @@ const Header = () => {
           </ul>
         </div>
         <div className="hidden xl:flex gap-4">
-          <div className="flex gap-2 border-b pb-2">
-            <SearchIcon className="w-4" />
-            <input
-              type="text"
-              placeholder="Search Here..."
-              className="bg-transparent w-[8rem] focus:outline-none"
-            />
-          </div>
           <a href="#get-started">
             <Button />
           </a>

@@ -1,9 +1,10 @@
-import Flex from "./Flex";
+import { Fade } from "react-awesome-reveal";
 
 const Ecom = () => {
   return (
     <div className="bg-white min-h-screen" id="services">
       <div className="max-w-[80rem] mx-auto min-h-screen px-8 py-16 lg:py-4 flex flex-col lg:flex-row justify-center gap-12 lg:justify-between items-center">
+        <Fade direction="left">
         <div className="">
           <h2 className="h2">
             We&apos;ve got everything your <br />
@@ -48,9 +49,12 @@ const Ecom = () => {
             </div>
           </div>
         </div>
+        </Fade>
+        <Fade direction="up">
         <div className="">
           <img src="/images/ecom.svg" alt="" />
         </div>
+        </Fade>
       </div>
     </div>
   );
