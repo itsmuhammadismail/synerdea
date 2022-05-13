@@ -5,24 +5,20 @@ export default function (req, res) {
   const PASSWORD = process.env.password;
 
   const transporter = nodemailer.createTransport({
-    port: 465,
-    host: "smtp.gmail.com",
+    service: "gmail",
     auth: {
       user: "muhammadismailofficial@gmail.com",
-      pass: PASSWORD,
+      pass: "Android11*",
     },
-    secure: true,
   });
 
-  const mailData = {
-    from: '"Fred Foo 👻" <foo@example.com>',
-    to: "bar@example.com, baz@example.com",
-    subject: "Hello ✔", // Subject line
-    text: "Hello world?", // plain text body
-    html: "<b>Hello world?</b>",
+  const details = {
+    from: "muhammadismailofficial@gmail.com",
+    to: "itsmuhammadismail@gmail.com",
+    subject: "Testing our nodemail",
+    text: "testing our nodemail",
   };
-
-  transporter.sendMail(mailData, function (err, info) {
+  transporter.sendMail(details, (err, info) => {
     if (err) console.log(err);
     else console.log(info);
   });

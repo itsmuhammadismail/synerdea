@@ -8,23 +8,23 @@ export default function TemporaryDrawer({ state, toggleDrawer }) {
         <img src="/logo.svg" alt="" />
       </div>
       <ul>
-        <a href="">
+        <a href="#clients">
           <li className="px-[2rem] py-[1rem] hover:bg-[#e7e7e7]">Clients</li>
         </a>
-        <a href="">
+        <a href="#services">
           <li className="px-[2rem] py-[1rem] hover:bg-[#e7e7e7]">Services</li>
         </a>
-        <a href="">
+        <a href="#startups">
           <li className="px-[2rem] py-[1rem] hover:bg-[#e7e7e7]">
             For Startups
           </li>
         </a>
-        <a href="">
+        <a href="#business">
           <li className="px-[2rem] py-[1rem] hover:bg-[#e7e7e7]">
             For Business
           </li>
         </a>
-        <a href="">
+        <a href="#enterprise">
           <li className="px-[2rem] py-[1rem] hover:bg-[#e7e7e7]">
             For Enterprise
           </li>

@@ -7,7 +7,7 @@ const EnterpriseScale = () => {
       <div className="max-w-[80rem] mx-auto min-h-screen px-8 py-16 lg:py-4 flex flex-col lg:flex-row justify-center gap-12 lg:justify-between items-center">
         <Fade direction="up">
           <div className="order-2 lg:order-1">
-            <img src="/images/startups.svg" alt="" />
+            <img src="/images/enterprise.svg" alt="" />
           </div>
         </Fade>
         <Fade direction="right">
