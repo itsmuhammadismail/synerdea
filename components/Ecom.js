@@ -5,111 +5,75 @@ const Ecom = () => {
   return (
     <div className="bg-linear min-h-screen" id="services">
       <div className="max-w-[80rem] mx-auto min-h-screen px-8  lg:py-4 flex flex-col justify-center gap-8 items-center">
-        {/* <Fade direction="left">
-          <div className="">
-            <h2 className="h2">
-              We&apos;ve got everything your <br />
-              E-Commerce Store needs
-            </h2>
-            <p className="my-8 max-w-[25rem] text-[1.125rem] ">
-              Recent surveys have indicated that small businesses recognise the
-              need they have to connect with consumer.
-            </p>
-            <div className="flex justify-between">
-              <div className="flex flex-col gap-2">
-                <div className="flex gap-3">
-                  <img src="/images/bullet.svg" />
-                  Store Creation
-                </div>
-                <div className="flex gap-3">
-                  <img src="/images/bullet.svg" />
-                  UI/UX Design
-                </div>
-                <div className="flex gap-3">
-                  <img src="/images/bullet.svg" />
-                  App Development
-                </div>
-                <div className="flex gap-3">
-                  <img src="/images/bullet.svg" />
-                  Order Confirmation
-                </div>
-              </div>
-              <div className="flex flex-col gap-2">
-                <div className="flex gap-3">
-                  <img src="/images/bullet.svg" />
-                  Process Automation
-                </div>
-                <div className="flex gap-3">
-                  <img src="/images/bullet.svg" />
-                  Store Management
-                </div>
-                <div className="flex gap-3">
-                  <img src="/images/bullet.svg" />
-                  Plugin Integration
-                </div>
-              </div>
-            </div>
-          </div>
-        </Fade>
-        <Fade direction="right">
-          <div className="">
-            <img src="/images/ecom.svg" alt="" />
-          </div>
-        </Fade> */}
         <div className="w-full flex flex-wrap gap-[2rem] mt-[6rem] items-end">
-          <div className="flex-1 px-[2.5rem]">
-            <h2 className="h2">
-              We&apos;ve got everything your <br />
-              E-Commerce Store needs
-            </h2>
-            <p className="my-8 max-w-[28rem] text-[1.125rem] ">
-              Recent surveys have indicated that small businesses recognise the
-              need they have to connect with consumer.
-            </p>
-          </div>
-          <Store
-            heading="Store Creation"
-            para="Your users can create groups to let other users to join and talk"
-            img="/images/store/store.svg"
-          />
+          <Fade direction="left">
+            <div className="flex-1 px-[2.5rem]">
+              <h2 className="h2">
+                We&apos;ve got everything
+                <br />
+                you need
+              </h2>
+              <p className="my-8 max-w-[28rem] text-[1.125rem] ">
+                Recent surveys have indicated that small businesses recognise
+                the need they have to connect with consumer.
+              </p>
+            </div>
+          </Fade>
+          <Fade direction="right">
+            <Store
+              heading="Analytical Solutions"
+              para="We have lead Business analytics software tools implementations, that provide methodical exploration of data to help businesses make better, data-driven decisions by focusing on identifying operational, day-to-day insights through data analytics to find trends, key drivers and areas of improvement."
+              img="/images/store/store.svg"
+            />
+          </Fade>
         </div>
         <div className="w-full flex flex-wrap gap-[2rem]">
-          <Store
-            heading="UI/UX Design"
-            para="Members, Friends Connection ( like followers ), Private Message"
-            img="/images/store/ui.svg"
-          />
-          <Store
-            heading="App Development"
-            para="You can create Members, Groups Module. We already created 3 modules. It's by drag & drop live builder."
-            img="/images/store/app.svg"
-          />
+          <Fade direction="left">
+            <Store
+              heading="UI/UX Design"
+              para="We cover a vast array of verticals & stack and are happy to deliver top of the art designs for your product with enhanced user experience, among other advantages that include cost effectiveness and time without compromising the outcome."
+              img="/images/store/ui.svg"
+            />
+          </Fade>
+          <Fade direction="right">
+            <Store
+              heading="App Development"
+              para="Build and transform your business through strategy, design and app development. Our Mantra, Good design is good design, and good code is good code. Being good at what we do allow us to working across multiple verticals and and industries with ease"
+              img="/images/store/app.svg"
+            />
+          </Fade>
         </div>
         <div className="w-full flex-wrap flex gap-[2rem]">
-          <Store
-            heading="Order Confirmation"
-            para="Forum is ready by BBPress. Your users can make topics and talk."
-            img="/images/store/order.svg"
-          />
-          <Store
-            heading="Process Automation"
-            para="8 different scroll effects are ready.
-            You can always change by your tastes."
-            img="/images/store/process.svg"
-          />
+          <Fade direction="left">
+            <Store
+              heading="Infrastructure"
+              para="We are known to provide flexible computing and storage options for data. Business data, workloads, and applications that have different needs, and our solution will help you implement the best possible solution including public cloud or private cloud or Hybrid mechanism."
+              img="/images/store/order.svg"
+            />
+          </Fade>
+          <Fade direction="right">
+            <Store
+              heading="Process Automation"
+              para="We are at par with the emerging technologies of user-programmed automation software solution that include process mining functionality, in bot capability used to setup simplistic job and incorporates AI and ML as required."
+              img="/images/store/process.svg"
+            />
+          </Fade>
         </div>
         <div className="w-full flex-wrap flex gap-[2rem] mb-[6rem]">
-          <Store
-            heading="Store Management"
-            para="Members, Groups list can be modified by drag & drop live builder."
-            img="/images/store/store_man.svg"
-          />
-          <Store
-            heading="Plugin Integration"
-            para="8 different scroll effects are ready.
-            You can always change by your tastes."
-            img="/images/store/plugin.svg"
-          />
+          <Fade direction="left">
+            <Store
+              heading="Cloud ERP"
+              para="Specializing in the Implementation of ERP’s in Manufacturing and Distribution sectors, including implementation/configuration of off-market products including Salesforce, Oracle, Microsoft Dynamics or home grown generic solutions that provides the solutions, processes and tools to assist you to manage your data and gain insights into your business"
+              img="/images/store/store_man.svg"
+            />
+          </Fade>
+          <Fade direction="right">
+            <Store
+              heading="Plugin Integration"
+              para="Run a successful website just like Amazon, eBay, or Flipkart then, you’ll need a good marketplace plugin. We can help with selection of the best marketplace plugin including Magento, Shopify, and WooCommerce to best suit your need."
+              img="/images/store/plugin.svg"
+            />
+          </Fade>
         </div>
       </div>
     </div>

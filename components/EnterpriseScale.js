@@ -12,16 +12,14 @@ const EnterpriseScale = () => {
         </Fade>
         <Fade direction="right">
           <div className="order-1 lg:order-2">
-            <h2 className="h2">For Enterprise Scale E-Commerce</h2>
+            <h2 className="h2">Enterprise</h2>
             <p className="text-[1.125rem] my-8 max-w-[31rem]">
-              Run your Enterprise E-Commerce Business with synerdea OMS. Connect
-              more than one E-Commerce Sites and platforms with synerdea and
-              manage your fulfillment from one central dashboard. Distribute
-              shipments to multiple 3PLs in real time using rule based protocols
-              and performance KPIs. Create accounts for your contact center
-              agents allowing them to make calls using our web based soft phone
-              and browser plugin. Integrate your brick and mortar store with
-              synerdea POS and your warehouse with synerdea WMS.
+              We serve Enterprises looking to transform their applications for
+              their most critical workload. If your already on your digital
+              journey than we can help you scale it for growth markets including
+              (IoT, blockchain, artificial intelligence [AI], Big Data, etc.) or
+              technology upgrade with significant legacy technology footprints
+              to open source or cloud integration or devOps integration.
             </p>
             <a href="#get-started">
               <BigButton />

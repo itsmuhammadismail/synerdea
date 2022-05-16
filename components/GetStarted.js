@@ -31,7 +31,8 @@ const GetStarted = () => {
       <div className="max-w-[80rem] mx-auto min-h-screen px-8 py-4 flex flex-col  justify-center items-center">
         <h1 className="h1 text-white text-center">Get Started</h1>
         <p className="text-[1.125rem] my-8 max-w-[31rem] text-white text-center">
-          Create a great Online Business with E-Commerce Services from Synerdea.
+          Our expert team has decades of shared experience and it&apos;s all
+          available at your request.
         </p>
         <div className="flex flex-col gap-4 w-full max-w-[31rem]">
           <input

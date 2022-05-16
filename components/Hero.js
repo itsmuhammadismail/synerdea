@@ -12,8 +12,10 @@ const Hero = () => {
               We have Solutions
             </h1>
             <p className="text-[1.125rem] my-8 max-w-[31rem]">
-              Synerdea serves as an expert in data-driven research and provides
-              modernization & visibility to your business.
+              We help transform them into products. We serve as experts in
+              data-driven research and provides modernization & visibility to
+              your business. Our goal lies with in implementation of technology
+              to reduces costs and build efficiency within your organization.
             </p>
             <a href="#get-started">
               <BigButton />
@@ -21,9 +23,9 @@ const Hero = () => {
           </div>
         </Fade>
         <Fade direction="up">
-        <div className="">
-          <img src="/images/hero.svg" alt="" />
-        </div>
+          <div className="">
+            <img src="/images/hero.svg" alt="" />
+          </div>
         </Fade>
       </div>
     </div>

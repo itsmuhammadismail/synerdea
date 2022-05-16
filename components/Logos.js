@@ -29,6 +29,16 @@ const Logos = () => {
         alt=""
         className="w-[8.5rem] grayscale opacity-40"
       />
+      <img
+        src="/logos/zapbooking.webp"
+        alt=""
+        className="w-[10.5rem] grayscale opacity-40"
+      />
+      <img
+        src="/logos/sis.jpg"
+        alt=""
+        className="w-[8.5rem] grayscale opacity-40"
+      />
     </div>
   );
 };

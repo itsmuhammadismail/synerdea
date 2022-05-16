@@ -26,28 +26,32 @@ const Footer = () => {
             </ul>
           </div>
           <div className="flex gap-4">
-            <a href="">
+            <a
+              href="https://www.facebook.com/Synerdea"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img
                 src="/social/facebook.svg"
                 alt=""
                 className="h-6 grayscale hover:grayscale-0"
               />
             </a>
-            <a href="">
+            <a href="" rel="noreferrer" target="_blank">
               <img
                 src="/social/twitter.svg"
                 alt=""
                 className="h-6 grayscale hover:grayscale-0"
               />
             </a>
-            <a href="">
+            <a href="" rel="noreferrer" target="_blank">
               <img
                 src="/social/youtube.svg"
                 alt=""
                 className="h-6 grayscale hover:grayscale-0"
               />
             </a>
-            <a href="">
+            <a href="" rel="noreferrer" target="_blank">
               <img
                 src="/social/instagram.svg"
                 alt=""

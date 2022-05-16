@@ -12,14 +12,13 @@ const Startups = () => {
         </Fade>
         <Fade direction="right">
           <div className="order-1 lg:order-2">
-            <h2 className="h2">For Startups</h2>
+            <h2 className="h2">Startups</h2>
             <p className="text-[1.125rem] my-8 max-w-[31rem]">
-              Supercharge your Small Business with E-Commerce Services from
-              synerdea. Let us create and manage your E-Commerce Landing Page
-              for you. Get one click order confirmation with our SMS and
-              Robocall Feature. Start shipping in seconds with our built in
-              Shipping Solution, no time consuming rate negotiation or API
-              integration required.
+              If you have a business model and ready to move it into reality,
+              let us make that into a physical product. We can help in
+              delivering business models into actual products so the value
+              proposition can be delivered on immediate basis, thus translating
+              value creation and revenue streams.
             </p>
             <a href="#get-started">
               <BigButton />
