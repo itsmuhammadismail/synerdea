@@ -4,6 +4,8 @@ export default function (req, res) {
 
   const PASSWORD = process.env.password;
 
+  console.log(req.body);
+
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
@@ -14,9 +16,9 @@ export default function (req, res) {
 
   const details = {
     from: "muhammadismailofficial@gmail.com",
-    to: "itsmuhammadismail@gmail.com",
-    subject: "Testing our nodemail",
-    text: "testing our nodemail",
+    to: "asadlodhii@gmail.com",
+    subject: "Synerdea Website Contact",
+    text: `${req.body.name} has sent a message from ${req.body.email}`,
   };
   transporter.sendMail(details, (err, info) => {
     if (err) console.log(err);
