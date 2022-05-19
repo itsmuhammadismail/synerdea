@@ -16,17 +16,17 @@ export default function TemporaryDrawer({ state, toggleDrawer }) {
         </a>
         <a href="#startups">
           <li className="px-[2rem] py-[1rem] hover:bg-[#e7e7e7]">
-            For Startups
+            Startups
           </li>
         </a>
         <a href="#business">
           <li className="px-[2rem] py-[1rem] hover:bg-[#e7e7e7]">
-            For Business
+            Business
           </li>
         </a>
         <a href="#enterprise">
           <li className="px-[2rem] py-[1rem] hover:bg-[#e7e7e7]">
-            For Enterprise
+            Enterprise
           </li>
         </a>
       </ul>

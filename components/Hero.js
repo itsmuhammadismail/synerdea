@@ -12,10 +12,9 @@ const Hero = () => {
               We have Solutions
             </h1>
             <p className="text-[1.125rem] my-8 max-w-[31rem]">
-              We help transform them into products. We serve as experts in
-              data-driven research and provides modernization & visibility to
-              your business. Our goal lies with in implementation of technology
-              to reduces costs and build efficiency within your organization.
+              Provided useful and data-driven research to modernize the company
+              outlook. Our goal lies with in implementation of technology to
+              reduces costs and build efficiency within your organization.
             </p>
             <a href="#get-started">
               <BigButton />

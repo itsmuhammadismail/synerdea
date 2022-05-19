@@ -15,13 +15,13 @@ const Footer = () => {
                 <li className="text-white">Services</li>
               </a>
               <a href="">
-                <li className="text-white">For Startups</li>
+                <li className="text-white">Startups</li>
               </a>
               <a href="">
-                <li className="text-white">For Business</li>
+                <li className="text-white">Business</li>
               </a>
               <a href="">
-                <li className="text-white">For Enterprise</li>
+                <li className="text-white">Enterprise</li>
               </a>
             </ul>
           </div>
@@ -37,23 +37,24 @@ const Footer = () => {
                 className="h-6 grayscale hover:grayscale-0"
               />
             </a>
-            <a href="" rel="noreferrer" target="_blank">
+            <a
+              href="https://twitter.com/Synerdea"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img
                 src="/social/twitter.svg"
                 alt=""
                 className="h-6 grayscale hover:grayscale-0"
               />
             </a>
-            <a href="" rel="noreferrer" target="_blank">
+            <a
+              href="https://www.linkedin.com/company/synerdea"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img
-                src="/social/youtube.svg"
-                alt=""
-                className="h-6 grayscale hover:grayscale-0"
-              />
-            </a>
-            <a href="" rel="noreferrer" target="_blank">
-              <img
-                src="/social/instagram.svg"
+                src="/social/linkedin.svg"
                 alt=""
                 className="h-6 grayscale hover:grayscale-0"
               />

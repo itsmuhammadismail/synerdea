@@ -35,9 +35,9 @@ const Logos = () => {
         className="w-[10.5rem] grayscale opacity-40"
       />
       <img
-        src="/logos/sis.jpg"
+        src="/logos/sis.jpeg"
         alt=""
-        className="w-[8.5rem] grayscale opacity-40"
+        className="w-[12.5rem] grayscale opacity-40"
       />
     </div>
   );

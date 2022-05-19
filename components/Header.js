@@ -32,13 +32,13 @@ const Header = () => {
               <li>Services</li>
             </a>
             <a href="#startups">
-              <li>For Startups</li>
+              <li>Startups</li>
             </a>
             <a href="#business">
-              <li>For Business</li>
+              <li>Business</li>
             </a>
             <a href="#enterprise">
-              <li>For Enterprise</li>
+              <li>Enterprise</li>
             </a>
           </ul>
         </div>

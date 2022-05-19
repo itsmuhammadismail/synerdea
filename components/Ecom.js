@@ -5,7 +5,7 @@ const Ecom = () => {
   return (
     <div className="bg-linear min-h-screen" id="services">
       <div className="max-w-[80rem] mx-auto min-h-screen px-8  lg:py-4 flex flex-col justify-center gap-8 items-center">
-        <div className="w-full flex flex-wrap gap-[2rem] mt-[6rem] items-end">
+        <div className="w-full flex flex-wrap gap-[2rem] mt-[6rem] items-end card-center">
           <Fade direction="left">
             <div className="flex-1 px-[2.5rem]">
               <h2 className="h2">
@@ -14,8 +14,14 @@ const Ecom = () => {
                 you need
               </h2>
               <p className="my-8 max-w-[28rem] text-[1.125rem] ">
-                Recent surveys have indicated that small businesses recognise
-                the need they have to connect with consumer.
+                Deeply skilled in all aspects of current and emerging
+                technologies, our experts advise and work with you to ensure
+                every application and service can be deployed and managed where
+                it makes the most sense. With our exclusive tools and assets,
+                you can accelerate the transform of your IT application &
+                infrastructure. We’ll work with you to incorporate intelligent
+                insights, automation and integration within your cloud provider
+                ecosystems.
               </p>
             </div>
           </Fade>
@@ -27,7 +33,7 @@ const Ecom = () => {
             />
           </Fade>
         </div>
-        <div className="w-full flex flex-wrap gap-[2rem]">
+        <div className="w-full flex flex-wrap gap-[2rem] card-center">
           <Fade direction="left">
             <Store
               heading="UI/UX Design"
@@ -43,7 +49,7 @@ const Ecom = () => {
             />
           </Fade>
         </div>
-        <div className="w-full flex-wrap flex gap-[2rem]">
+        <div className="w-full flex-wrap flex gap-[2rem] card-center">
           <Fade direction="left">
             <Store
               heading="Infrastructure"
@@ -59,11 +65,11 @@ const Ecom = () => {
             />
           </Fade>
         </div>
-        <div className="w-full flex-wrap flex gap-[2rem] mb-[6rem]">
+        <div className="w-full flex-wrap flex gap-[2rem] mb-[6rem] card-center">
           <Fade direction="left">
             <Store
               heading="Cloud ERP"
-              para="Specializing in the Implementation of ERP’s in Manufacturing and Distribution sectors, including implementation/configuration of off-market products including Salesforce, Oracle, Microsoft Dynamics or home grown generic solutions that provides the solutions, processes and tools to assist you to manage your data and gain insights into your business"
+              para="Specializing in the Implementation of ERP’s in Manufacturing and Distribution sectors, including implementation/configuration of off-market products including Salesforce, Oracle, Microsoft Dynamics or home grown generic solutions."
               img="/images/store/store_man.svg"
             />
           </Fade>
