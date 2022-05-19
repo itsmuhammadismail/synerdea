@@ -1,12 +1,14 @@
 import { useRef } from "react";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
 
 const GetStarted = () => {
   const name = useRef();
   const email = useRef();
 
   const handleSubmit = (e) => {
-    console.log("Hello world ");
     e.preventDefault();
+    Swal.fire("Thank You!", "Your request has been send", "success");
     let data = {
       name: name.current.value,
       email: email.current.value,

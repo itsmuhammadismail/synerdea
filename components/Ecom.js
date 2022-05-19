@@ -29,7 +29,7 @@ const Ecom = () => {
             <Store
               heading="Analytical Solutions"
               para="We have lead Business analytics software tools implementations, that provide methodical exploration of data to help businesses make better, data-driven decisions by focusing on identifying operational, day-to-day insights through data analytics to find trends, key drivers and areas of improvement."
-              img="/images/store/store.svg"
+              img="/images/store/analytical.svg"
             />
           </Fade>
         </div>
@@ -54,7 +54,7 @@ const Ecom = () => {
             <Store
               heading="Infrastructure"
               para="We are known to provide flexible computing and storage options for data. Business data, workloads, and applications that have different needs, and our solution will help you implement the best possible solution including public cloud or private cloud or Hybrid mechanism."
-              img="/images/store/order.svg"
+              img="/images/store/infrastructure.svg"
             />
           </Fade>
           <Fade direction="right">
@@ -70,7 +70,7 @@ const Ecom = () => {
             <Store
               heading="Cloud ERP"
               para="Specializing in the Implementation of ERP’s in Manufacturing and Distribution sectors, including implementation/configuration of off-market products including Salesforce, Oracle, Microsoft Dynamics or home grown generic solutions."
-              img="/images/store/store_man.svg"
+              img="/images/store/erp.svg"
             />
           </Fade>
           <Fade direction="right">
