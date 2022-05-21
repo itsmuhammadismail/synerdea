@@ -21,25 +21,37 @@ const Header = () => {
     <header className="border-b border-[rgba(33, 123, 244, 0.1)] absolute w-full">
       <div className="max-w-[80rem] mx-auto px-8 py-4 flex justify-between items-center">
         <div className="flex items-center gap-12">
-          <a href="#hero">
-            <img src="/logo.svg" alt="" />
-          </a>
+          <Link href="/">
+            <a>
+              <img src="/logo.svg" alt="" />
+            </a>
+          </Link>
           <ul className="hidden xl:flex gap-8">
-            <a href="#clients">
-              <li>Clients</li>
-            </a>
-            <a href="#services">
-              <li>Services</li>
-            </a>
-            <a href="#startups">
-              <li>Startups</li>
-            </a>
-            <a href="#business">
-              <li>Business</li>
-            </a>
-            <a href="#enterprise">
-              <li>Enterprise</li>
-            </a>
+            <Link href="#clients">
+              <a>
+                <li>Clients</li>
+              </a>
+            </Link>
+            <Link href="#services">
+              <a>
+                <li>Services</li>
+              </a>
+            </Link>
+            <Link href="#startups">
+              <a>
+                <li>Startups</li>
+              </a>
+            </Link>
+            <Link href="#business">
+              <a>
+                <li>Business</li>
+              </a>
+            </Link>
+            <Link href="#enterprise">
+              <a>
+                <li>Enterprise</li>
+              </a>
+            </Link>
           </ul>
         </div>
         <div className="hidden xl:flex gap-4">

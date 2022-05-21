@@ -1,5 +1,5 @@
 import Drawer from "@mui/material/Drawer";
-import Button from "@mui/material/Button";
+import Link from "next/link";
 
 export default function TemporaryDrawer({ state, toggleDrawer }) {
   const list = (anchor) => (
@@ -8,27 +8,21 @@ export default function TemporaryDrawer({ state, toggleDrawer }) {
         <img src="/logo.svg" alt="" />
       </div>
       <ul>
-        <a href="#clients">
+        <Link href="#clients">
           <li className="px-[2rem] py-[1rem] hover:bg-[#e7e7e7]">Clients</li>
-        </a>
-        <a href="#services">
+        </Link>
+        <Link href="#services">
           <li className="px-[2rem] py-[1rem] hover:bg-[#e7e7e7]">Services</li>
-        </a>
-        <a href="#startups">
-          <li className="px-[2rem] py-[1rem] hover:bg-[#e7e7e7]">
-            Startups
-          </li>
-        </a>
-        <a href="#business">
-          <li className="px-[2rem] py-[1rem] hover:bg-[#e7e7e7]">
-            Business
-          </li>
-        </a>
-        <a href="#enterprise">
-          <li className="px-[2rem] py-[1rem] hover:bg-[#e7e7e7]">
-            Enterprise
-          </li>
-        </a>
+        </Link>
+        <Link href="#startups">
+          <li className="px-[2rem] py-[1rem] hover:bg-[#e7e7e7]">Startups</li>
+        </Link>
+        <Link href="#business">
+          <li className="px-[2rem] py-[1rem] hover:bg-[#e7e7e7]">Business</li>
+        </Link>
+        <Link href="#enterprise">
+          <li className="px-[2rem] py-[1rem] hover:bg-[#e7e7e7]">Enterprise</li>
+        </Link>
       </ul>
     </div>
   );

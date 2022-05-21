@@ -7,17 +7,17 @@ const Logos = () => {
       <img
         src="/logos/cdc.png"
         alt=""
-        className="w-[8.5rem] grayscale opacity-40"
+        className="h-[5rem] grayscale opacity-40"
       />
       <img
         src="/logos/yayvo.png"
         alt=""
-        className="w-[8.5rem] grayscale opacity-40"
+        className="h-[5rem] grayscale opacity-40"
       />
       <img
         src="/logos/js.png"
         alt=""
-        className="w-[8.5rem] grayscale opacity-40"
+        className="h-[5rem] grayscale opacity-40"
       />
       <img
         src="/logos/blueex.png"
@@ -32,12 +32,12 @@ const Logos = () => {
       <img
         src="/logos/zapbooking.webp"
         alt=""
-        className="w-[10.5rem] grayscale opacity-40"
+        className="h-[4.5rem] grayscale opacity-40"
       />
       <img
         src="/logos/sis.jpeg"
         alt=""
-        className="w-[12.5rem] grayscale opacity-40"
+        className="h-[4.5rem] grayscale opacity-40"
       />
     </div>
   );

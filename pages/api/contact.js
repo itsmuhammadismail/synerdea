@@ -16,7 +16,7 @@ export default function (req, res) {
 
   const details = {
     from: "muhammadismailofficial@gmail.com",
-    to: "asadlodhii@gmail.com",
+    to: "synerdea@gmail.com",
     subject: "Synerdea Website Contact",
     text: `${req.body.name} has sent a message from ${req.body.email}`,
   };

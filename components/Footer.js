@@ -1,28 +1,41 @@
+import Link from "next/link";
 const Footer = () => {
   return (
     <>
       <footer className="bg-black">
         <div className="max-w-[80rem] mx-auto px-8 py-4 flex flex-col md:flex-row gap-4 justify-between items-center">
           <div className="flex items-center gap-12">
-            <a href="">
-              <img src="/logo_white.svg" alt="" className="h-[3rem]" />
-            </a>
+            <Link href="/">
+              <a>
+                <img src="/logo_white.svg" alt="" className="h-[3rem]" />
+              </a>
+            </Link>
             <ul className="hidden lg:flex gap-8 text-white">
-              <a href="">
-                <li className="text-white">Clients</li>
-              </a>
-              <a href="">
-                <li className="text-white">Services</li>
-              </a>
-              <a href="">
-                <li className="text-white">Startups</li>
-              </a>
-              <a href="">
-                <li className="text-white">Business</li>
-              </a>
-              <a href="">
-                <li className="text-white">Enterprise</li>
-              </a>
+              <Link href="#clients">
+                <a>
+                  <li className="text-white">Clients</li>
+                </a>
+              </Link>
+              <Link href="#services">
+                <a>
+                  <li className="text-white">Services</li>
+                </a>
+              </Link>
+              <Link href="#startups">
+                <a>
+                  <li className="text-white">Startups</li>
+                </a>
+              </Link>
+              <Link href="#business">
+                <a>
+                  <li className="text-white">Business</li>
+                </a>
+              </Link>
+              <Link href="#enterprise">
+                <a>
+                  <li className="text-white">Enterprise</li>
+                </a>
+              </Link>
             </ul>
           </div>
           <div className="flex gap-4">
