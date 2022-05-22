@@ -10,18 +10,26 @@ const GetStarted = () => {
     e.preventDefault();
     Swal.fire("Thank You!", "Your request has been send", "success");
 
+    const header = {
+      "Content-Type": "application/x-www-form-urlencoded",
+    };
+
     var urlencoded = new URLSearchParams();
     urlencoded.append("name", name.current.value);
     urlencoded.append("email", email.current.value);
 
+    console.log(urlencoded);
+
     var requestOptions = {
       method: "POST",
+      headers: header,
       body: urlencoded,
       redirect: "follow",
     };
 
     const res = await fetch(
       "https://synerdea.neuronious.com/contact",
+      // "http://localhost:5000/contact",
       requestOptions
     )
       .then((response) => response.json())
