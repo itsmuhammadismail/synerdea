@@ -6,26 +6,28 @@ const GetStarted = () => {
   const name = useRef();
   const email = useRef();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     Swal.fire("Thank You!", "Your request has been send", "success");
-    let data = {
-      name: name.current.value,
-      email: email.current.value,
-    };
-    fetch("/api/contact", {
+
+    var urlencoded = new URLSearchParams();
+    urlencoded.append("name", name.current.value);
+    urlencoded.append("email", email.current.value);
+
+    var requestOptions = {
       method: "POST",
-      headers: {
-        Accept: "application/json, text/plain, */*",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    }).then((res) => {
-      console.log("Response received");
-      if (res.status === 200) {
-        console.log("Response succeeded!");
-      }
-    });
+      body: urlencoded,
+      redirect: "follow",
+    };
+
+    const res = await fetch(
+      "https://synerdea.neuronious.com/contact",
+      requestOptions
+    )
+      .then((response) => response.json())
+      .catch((error) => console.log("error", error));
+
+    console.log(res);
   };
 
   return (
